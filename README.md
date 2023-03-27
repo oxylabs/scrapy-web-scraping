@@ -72,7 +72,7 @@ Notice the book title is in the `title` attribute of the `<a>` tag inside an <h3
 
 The target page lists only the first 20 books of 1000 books. Therefore, there would be a total of 50 pages. Let’s see the bottom of the same to know the CSS selector for the next page link. 
 
-![BooksToScrape Footer View](images\books_to_scrape_bottom.png)
+![BooksToScrape Footer View](images/books_to_scrape_bottom.png)
 
 The URL for the next page is available in the `href` attribute of the `<a>` tag. This `<a>` is enclosed by an `<li>` tag with the `next` class. Mind this information; we will use it in the subsequent section. 
 
