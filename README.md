@@ -17,7 +17,7 @@ pip install scrapy
 
 Scrapy would take a few minutes to complete the installation, depending on your internet connection speed.
 
-![scrapy installation progress](images\scrapy_installation_progress.png)
+![scrapy installation progress](images/scrapy_installation_progress.png)
 
 Once the installation for the Scrapy gets complete, you can start creating Scrapy projects using the following command:
 
@@ -47,7 +47,7 @@ scrapy genspider books books.toscrape.com
 
 Congratulations! 🎉 We just completed the initial setup for our Scrapy web scraper. Here is what the project folder looks like:
 
-![Scrapy project structure](images\scrapy_project_structure.png)
+![Scrapy project structure](images/scrapy_project_structure.png)
 
 ### Scrapy project structure
 
@@ -66,7 +66,7 @@ You are encouraged to read [Scrapy’s documentation](https://docs.scrapy.org/en
 
 This section discusses customizing a Scrapy project to scrape all the books’ information on the [Books Store](http://books.toscrape.com/). Before jumping into the coding, let’s look at our [initial target](http://books.toscrape.com/) page.
 
-![BooksToScrape top view](images\Books_to_scrape_top.png)
+![BooksToScrape top view](images/Books_to_scrape_top.png)
 
 Notice the book title is in the `title` attribute of the `<a>` tag inside an <h3> element. This `<h3>` element is enclosed by an `<article>` tag with the `product_pod` class. Similarly, the book price resides in a `<p>` tag with the `price_color` tag. 
 
