@@ -187,4 +187,4 @@ The `__main__` function on return writes the returned `books_data` to the “boo
 
 Here is what the output file looks like:
 
-![books_data.csv file's partial snippet](images\output_books_data_csv.png)
+![books_data.csv file's partial snippet](images/output_books_data_csv.png)
