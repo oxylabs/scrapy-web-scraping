@@ -1,6 +1,6 @@
 ﻿# Web Scraping with Scrapy: Python Tutorial
 
-[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=877&utm_medium=affiliate&groupid=877&utm_content=scrapy-web-scraping-github&transaction_id=102f49063ab94276ae8f116d224b67)
+[![Oxylabs promo code](https://raw.githubusercontent.com/oxylabs/product-integrations/refs/heads/master/Affiliate-Universal-1090x275.png)](https://oxylabs.io/pages/gitoxy?utm_source=github&utm_medium=referral&utm_content=scrapy-web-scraping&utm_campaign=banner&groupid=877)
 
 <p align="left">
   <a href="https://dashboard.oxylabs.io"><img src="https://img.shields.io/badge/%F0%9F%9A%80_Get_Started-FF6B35?style=for-the-badge" alt="Get started"></a>
@@ -64,7 +64,7 @@ Each Scrapy project has the following files and folders: -
 
 - **spiders folder:** Contains spiders for defining how to extract data from specific websites. Each spider is designed to target a specific website or set of websites. Typically, a spider contains a set of rules that dictate how to navigate the site and extract the desired data.
 - **items.py:** Contains objects that represent the data a spider is trying to extract. Items are defined using Python classes and help organize the data in a structured format.
-- **middleware.py:** This file contains middleware information for request routing. You can also write the [custom proxy middleware](https://oxylabs.io/resources/integrations/scrapy-proxy) in this file.
+- **middleware.py:** This file contains middleware information for request routing. You can also write the [custom proxy middleware](https://oxylabs.io/resources/integrations/scrapy-proxy?utm_source=github&utm_medium=referral&utm_content=scrapy-web-scraping&groupid=877) in this file.
 - **pipelines.py:** Once the spider completes the data extraction, we need to process and store the data in a structured format. Pipelines define a set of processing steps on data while it is being extracted.
 - **settings.py:** It contains various configuration settings that control the behavior of the Scrapy framework. For example, you can set user agent string, configure download delay, limit maximum concurrent requests, configure middleware, etc.
 - **Scrapy.cfg:** A plain text file that contains a series of configuration directives. For example, it includes directives for the project name, the location of the spider modules, and the settings to be used when running the spiders.
